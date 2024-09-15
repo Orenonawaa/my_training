@@ -14,7 +14,7 @@ average3 = sum(grades[2]) / len(grades[2])
 average4 = sum(grades[3]) / len(grades[3])
 average5 = sum(grades[4]) / len(grades[4])
 
-students1 = tuple(students)
+students1 = sorted(students)
 
 slovar = {students1[0] : average1, students1[1] : average2, students1[2] : average3, students1[3] : average4, students1[4] : average5}
 print(slovar)
